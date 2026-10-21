@@ -1,163 +1,453 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Terms of Use · 使用条款 — Welldone</title>
-<meta name="robots" content="index, follow">
-<style>
-  :root {
-    --accent: #01B06F;
-    --accent-soft: rgba(1, 176, 111, 0.1);
-    --text: #1a1d1f;
-    --text-secondary: #6b7280;
-    --border: rgba(0, 0, 0, 0.1);
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
-    color: var(--text); background: #fafafa; line-height: 1.8;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 40px 24px 64px; }
-  .topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 32px; }
-  .back { color: var(--accent); text-decoration: none; font-size: 14px; }
-  #langToggle {
-    background: var(--accent-soft); color: var(--accent); border: none;
-    font-size: 13px; font-weight: 600; padding: 8px 16px; border-radius: 999px; cursor: pointer;
-  }
-  h1 { font-size: 26px; font-weight: 700; margin-bottom: 4px; }
-  .meta { color: var(--text-secondary); font-size: 13px; margin-bottom: 32px; }
-  h2 { font-size: 18px; font-weight: 700; margin: 32px 0 12px; }
-  p, li { font-size: 15px; color: #374151; }
-  ul { padding-left: 22px; margin: 8px 0; }
-  li { margin: 6px 0; }
-  strong { color: var(--text); }
-  .card { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 32px 32px 24px; }
-  footer { text-align: center; color: var(--text-secondary); font-size: 13px; margin-top: 40px; }
-  footer a { color: var(--accent); text-decoration: none; }
-  html.js .lang { display: none; }
-  html.js.lang-zh .lang.zh { display: block; }
-  html.js.lang-en .lang.en { display: block; }
-</style>
-</head>
-<body>
-<div class="container">
-  <div class="topbar">
-    <a class="back" href="../">← Welldone</a>
-    <button id="langToggle" type="button">English</button>
-  </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terms of Use · 使用条款 · 利用規約 — Welldone</title>
+    <meta name="robots" content="index, follow" />
+    <style>
+      :root {
+        --accent: #01b06f;
+        --accent-soft: rgba(1, 176, 111, 0.1);
+        --text: #1a1d1f;
+        --text-secondary: #6b7280;
+        --border: rgba(0, 0, 0, 0.1);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans",
+          "Hiragino Kaku Gothic ProN", "Helvetica Neue", "Segoe UI", Arial,
+          sans-serif;
+        color: var(--text);
+        background: #fafafa;
+        line-height: 1.8;
+        -webkit-font-smoothing: antialiased;
+      }
+      .container {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 40px 24px 64px;
+      }
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 32px;
+      }
+      .back {
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 14px;
+      }
+      #langToggle {
+        background: var(--accent-soft);
+        color: var(--accent);
+        border: none;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 8px 16px;
+        border-radius: 999px;
+        cursor: pointer;
+      }
+      h1 {
+        font-size: 26px;
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      .meta {
+        color: var(--text-secondary);
+        font-size: 13px;
+        margin-bottom: 32px;
+      }
+      h2 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 32px 0 12px;
+      }
+      p,
+      li {
+        font-size: 15px;
+        color: #374151;
+      }
+      ul {
+        padding-left: 22px;
+        margin: 8px 0;
+      }
+      li {
+        margin: 6px 0;
+      }
+      strong {
+        color: var(--text);
+      }
+      .card {
+        background: #fff;
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 32px 32px 24px;
+      }
+      footer {
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 13px;
+        margin-top: 40px;
+      }
+      footer a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      html.js .lang {
+        display: none;
+      }
+      html.js.lang-zh .lang.zh {
+        display: block;
+      }
+      html.js.lang-en .lang.en {
+        display: block;
+      }
+      html.js.lang-ja .lang.ja {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <a class="back" href="../">← Welldone</a>
+        <button id="langToggle" type="button">English</button>
+      </div>
 
-  <div class="card">
-    <div class="lang zh">
-      <h1>使用条款</h1>
-      <p class="meta">生效日期：2026 年 10 月 20 日</p>
+      <div class="card">
+        <div class="lang zh">
+          <h1>使用条款</h1>
+          <p class="meta">生效日期：2026 年 10 月 20 日</p>
 
-      <p>欢迎使用 Welldone（"本应用"）。请在使用前阅读本条款。下载或使用本应用即表示你同意本条款。本条款基于 Apple《标准最终用户许可协议》（Standard EULA）制定。</p>
+          <p>
+            欢迎使用
+            Welldone（"本应用"）。请在使用前阅读本条款。下载或使用本应用即表示你同意本条款。本条款基于
+            Apple《标准最终用户许可协议》（Standard EULA）制定。
+          </p>
 
-      <h2>1. 许可</h2>
-      <p>本应用根据 App Store 媒体服务条款授予你有限的、非独占的、不可转让的许可，你可以在你拥有或控制的 Apple 品牌设备上下载并使用本应用（受《媒体服务条款》"使用规则"约束）。你的 Apple ID 关联的多台设备均可使用。</p>
+          <h2>1. 许可</h2>
+          <p>
+            本应用根据 App Store
+            媒体服务条款授予你有限的、非独占的、不可转让的许可，你可以在你拥有或控制的
+            Apple
+            品牌设备上下载并使用本应用（受《媒体服务条款》"使用规则"约束）。你的
+            Apple ID 关联的多台设备均可使用。
+          </p>
 
-      <h2>2. 使用限制</h2>
-      <ul>
-        <li>除许可允许外，不得复制本应用或其任何部分；</li>
-        <li>不得对本应用进行逆向工程、反编译或反汇编（法律明文允许的除外）；</li>
-        <li>不得将本应用用于商业分销、出租、租赁或转许可；</li>
-        <li>应遵守所有适用法律使用本应用。</li>
-      </ul>
+          <h2>2. 使用限制</h2>
+          <ul>
+            <li>除许可允许外，不得复制本应用或其任何部分；</li>
+            <li>
+              不得对本应用进行逆向工程、反编译或反汇编（法律明文允许的除外）；
+            </li>
+            <li>不得将本应用用于商业分销、出租、租赁或转许可；</li>
+            <li>应遵守所有适用法律使用本应用。</li>
+          </ul>
 
-      <h2>3. 你的内容</h2>
-      <p>你通过本应用记录的日记、任务、心情与标签等内容归你所有，仅保存在你的设备本地。你对自己内容的合法性负责，并应自行妥善备份（可使用应用内 CSV 导出功能）。我们无法接触、恢复或赔偿因设备故障、误删或未备份导致的内容丢失。</p>
+          <h2>3. 你的内容</h2>
+          <p>
+            你通过本应用记录的日记、任务、心情与标签等内容归你所有，仅保存在你的设备本地。你对自己内容的合法性负责，并应自行妥善备份（可使用应用内
+            CSV
+            导出功能）。我们无法接触、恢复或赔偿因设备故障、误删或未备份导致的内容丢失。
+          </p>
 
-      <h2>4. 自动续期订阅</h2>
-      <ul>
-        <li>Premium 提供按年订阅、按月订阅与一次性买断三种形式；</li>
-        <li>订阅将通过你的 Apple ID 账户在确认购买时付款，并按所选周期自动续期（买断除外）；</li>
-        <li>如需取消或管理订阅，请在当前周期结束前至少 24 小时，前往 App Store「账户设置」中的「订阅」操作；</li>
-        <li>取消后，Premium 功能将持续到当前周期结束，之后恢复为免费版状态；</li>
-        <li>退款按 Apple 的退款政策与适用法律执行。</li>
-      </ul>
+          <h2>4. 自动续期订阅</h2>
+          <ul>
+            <li>Premium 提供按年订阅、按月订阅与一次性买断三种形式；</li>
+            <li>
+              订阅将通过你的 Apple ID
+              账户在确认购买时付款，并按所选周期自动续期（买断除外）；
+            </li>
+            <li>
+              如需取消或管理订阅，请在当前周期结束前至少 24 小时，前往 App
+              Store「账户设置」中的「订阅」操作；
+            </li>
+            <li>
+              取消后，Premium 功能将持续到当前周期结束，之后恢复为免费版状态；
+            </li>
+            <li>退款按 Apple 的退款政策与适用法律执行。</li>
+          </ul>
 
-      <h2>5. 维护与支持</h2>
-      <p>本应用的维护与支持由 northmostgeek 提供（联系邮箱：northmostgeek@gmail.com）。Apple 对本应用的维护与支持没有任何义务。</p>
+          <h2>5. 维护与支持</h2>
+          <p>
+            本应用的维护与支持由 northmostgeek
+            提供（联系邮箱：northmostgeek@gmail.com）。Apple
+            对本应用的维护与支持没有任何义务。
+          </p>
 
-      <h2>6. 免责声明</h2>
-      <p>在适用法律允许的最大范围内，本应用按"现状"提供，不附带任何明示或默示的保证，包括但不限于适销性、特定用途适用性与不侵权的保证。我们不保证应用完全无错误或不中断。</p>
+          <h2>6. 免责声明</h2>
+          <p>
+            在适用法律允许的最大范围内，本应用按"现状"提供，不附带任何明示或默示的保证，包括但不限于适销性、特定用途适用性与不侵权的保证。我们不保证应用完全无错误或不中断。
+          </p>
 
-      <h2>7. 责任限制</h2>
-      <p>在适用法律允许的最大范围内，对于因使用或无法使用本应用导致的任何损失（包括数据丢失、利润损失等），northmostgeek 不承担责任。若法律不允许排除某些责任，则责任上限不超过你为本应用支付的实际金额。</p>
+          <h2>7. 责任限制</h2>
+          <p>
+            在适用法律允许的最大范围内，对于因使用或无法使用本应用导致的任何损失（包括数据丢失、利润损失等），northmostgeek
+            不承担责任。若法律不允许排除某些责任，则责任上限不超过你为本应用支付的实际金额。
+          </p>
 
-      <h2>8. 条款变更</h2>
-      <p>我们可能随应用更新修改本条款，修改后将在本页面发布并更新生效日期。继续使用即表示接受修改后的条款。</p>
+          <h2>8. 条款变更</h2>
+          <p>
+            我们可能随应用更新修改本条款，修改后将在本页面发布并更新生效日期。继续使用即表示接受修改后的条款。
+          </p>
 
-      <h2>9. 联系我们</h2>
-      <p>如对本条款有任何疑问，请联系：<a href="mailto:northmostgeek@gmail.com" style="color:var(--accent)">northmostgeek@gmail.com</a></p>
+          <h2>9. 联系我们</h2>
+          <p>
+            如对本条款有任何疑问，请联系：<a
+              href="mailto:northmostgeek@gmail.com"
+              style="color: var(--accent)"
+              >northmostgeek@gmail.com</a
+            >
+          </p>
+        </div>
+
+        <div class="lang en">
+          <h1>Terms of Use</h1>
+          <p class="meta">Effective date: October 20, 2026</p>
+
+          <p>
+            Welcome to Welldone ("the App"). Please read these terms before use.
+            By downloading or using the App, you agree to them. These terms are
+            based on Apple's Standard Licensed Application End User License
+            Agreement (Standard EULA).
+          </p>
+
+          <h2>1. License</h2>
+          <p>
+            The App is licensed, not sold, to you under a limited,
+            non-exclusive, non-transferable license under Apple's Media Services
+            Terms. You may download and use the App on Apple-branded products
+            that you own or control, as permitted by the Usage Rules set forth
+            in those terms, including use across devices associated with your
+            Apple ID.
+          </p>
+
+          <h2>2. Restrictions</h2>
+          <ul>
+            <li>
+              You may not copy the App or any part of it except as permitted by
+              the license;
+            </li>
+            <li>
+              You may not reverse engineer, decompile, or disassemble the App,
+              except to the extent expressly permitted by law;
+            </li>
+            <li>
+              You may not rent, lease, lend, redistribute, or sublicense the App
+              for commercial purposes;
+            </li>
+            <li>
+              You must comply with all applicable laws when using the App.
+            </li>
+          </ul>
+
+          <h2>3. Your content</h2>
+          <p>
+            Content you record in the App — journal entries, tasks, mood
+            ratings, and tags — belongs to you and is stored locally on your
+            device. You are responsible for the lawfulness of your content and
+            for keeping backups (use the in-app CSV export). We cannot access,
+            recover, or compensate you for content lost due to device failure,
+            accidental deletion, or missing backups.
+          </p>
+
+          <h2>4. Auto-renewing subscriptions</h2>
+          <ul>
+            <li>
+              Premium is offered as a yearly subscription, a monthly
+              subscription, and a one-time lifetime purchase;
+            </li>
+            <li>
+              Subscriptions are billed through your Apple ID at confirmation of
+              purchase and renew automatically each period (except the lifetime
+              purchase);
+            </li>
+            <li>
+              To cancel or manage a subscription, go to your App Store account
+              settings → Subscriptions at least 24 hours before the current
+              period ends;
+            </li>
+            <li>
+              After cancellation, Premium remains available until the end of the
+              current period, then reverts to the free version;
+            </li>
+            <li>Refunds follow Apple's refund policies and applicable law.</li>
+          </ul>
+
+          <h2>5. Maintenance and support</h2>
+          <p>
+            northmostgeek provides maintenance and support for the App (contact:
+            northmostgeek@gmail.com). Apple has no obligation whatsoever to
+            furnish any maintenance and support services with respect to the
+            App.
+          </p>
+
+          <h2>6. Disclaimer of warranties</h2>
+          <p>
+            To the maximum extent permitted by law, the App is provided "as is"
+            without warranties of any kind, express or implied, including but
+            not limited to merchantability, fitness for a particular purpose,
+            and non-infringement. We do not warrant the App to be error-free or
+            uninterrupted.
+          </p>
+
+          <h2>7. Limitation of liability</h2>
+          <p>
+            To the maximum extent permitted by law, northmostgeek shall not be
+            liable for any damages (including loss of data or profits) arising
+            from the use of or inability to use the App. Where liability cannot
+            be excluded, it is limited to the amount you actually paid for the
+            App.
+          </p>
+
+          <h2>8. Changes to these terms</h2>
+          <p>
+            We may revise these terms as the App evolves. Updated terms will be
+            posted on this page with a new effective date. Continued use
+            constitutes acceptance of the revised terms.
+          </p>
+
+          <h2>9. Contact us</h2>
+          <p>
+            If you have questions about these terms, contact us at:
+            <a
+              href="mailto:northmostgeek@gmail.com"
+              style="color: var(--accent)"
+              >northmostgeek@gmail.com</a
+            >
+          </p>
+        </div>
+
+        <div class="lang ja">
+          <h1>利用規約</h1>
+          <p class="meta">発効日：2026年10月20日</p>
+
+          <p>
+            Welldone（以下「本アプリ」）のご利用を歓迎します。ご利用の前に本規約をお読みください。本アプリをダウンロードまたは使用した時点で、本規約に同意したものとみなされます。本規約は、Appleの標準最終ユーザーライセンス契約（Standard
+            EULA）に基づいて作成されています。
+          </p>
+
+          <h2>1. ライセンス</h2>
+          <p>
+            本アプリは、Appleのメディアサービス利用規約に基づき、限定的・非独占的・譲渡不可のライセンスとして提供されます。あなたが所有または管理するAppleブランドのデバイス上で、当該規約の「使用規則」の範囲内で本アプリをダウンロード・使用できます（あなたのApple
+            IDに紐づく複数のデバイスでの使用を含みます）。
+          </p>
+
+          <h2>2. 使用の制限</h2>
+          <ul>
+            <li>
+              ライセンスで許可されている場合を除き、本アプリまたはその一部を複製しないこと；
+            </li>
+            <li>
+              法律で明示的に許可されている場合を除き、本アプリのリバースエンジニアリング、逆コンパイル、逆アセンブルを行わないこと；
+            </li>
+            <li>
+              本アプリを商用目的で再配布、レンタル、リース、サブライセンスしないこと；
+            </li>
+            <li>適用されるすべての法律を遵守して本アプリを使用すること。</li>
+          </ul>
+
+          <h2>3. あなたのコンテンツ</h2>
+          <p>
+            本アプリで記録した日記、タスク、気分スコア、タグなどのコンテンツはあなたに帰属し、あなたのデバイスのローカルにのみ保存されます。コンテンツの合法性についてはあなたが責任を負い、ご自身でバックアップを管理してください（アプリ内のCSVエクスポート機能をご利用いただけます）。デバイスの故障、誤操作による削除、バックアップ未実施などによりコンテンツが失われた場合、私たちはアクセス・復旧・補償を行うことができません。
+          </p>
+
+          <h2>4. 自動更新サブスクリプション</h2>
+          <ul>
+            <li>
+              プレミアムは、年額サブスクリプション、月額サブスクリプション、および一回払いの買い切りで提供されます；
+            </li>
+            <li>
+              サブスクリプションは購入の確認時にあなたのApple
+              IDアカウントへ請求され、選択した期間ごとに自動更新されます（買い切りを除く）；
+            </li>
+            <li>
+              解約または管理は、現在の期間終了の少なくとも24時間前に、App
+              Storeの「アカウント設定」→「サブスクリプション」から行ってください；
+            </li>
+            <li>
+              解約後もプレミアム機能は現在の期間の終了まで利用でき、その後無料版に戻ります；
+            </li>
+            <li>返金については、Appleの返金ポリシーおよび適用法に従います。</li>
+          </ul>
+
+          <h2>5. 保守とサポート</h2>
+          <p>
+            本アプリの保守とサポートはnorthmostgeekが提供します（連絡先：northmostgeek@gmail.com）。本アプリの保守・サポートに関して、Appleは一切の義務を負いません。
+          </p>
+
+          <h2>6. 保証の免責</h2>
+          <p>
+            適用法で認められる最大限の範囲において、本アプリは「現状のまま」提供され、商品性、特定目的への適合性、非侵害を含む（ただし制限されない）明示または黙示のいかなる保証も伴いません。本アプリにエラーがなく中断されないことは保証しません。
+          </p>
+
+          <h2>7. 責任の制限</h2>
+          <p>
+            適用法で認められる最大限の範囲において、本アプリの使用または使用不能から生じるいかなる損害（データの損失、逸失利益などを含む）についても、northmostgeekは責任を負いません。責任を排除できない場合、責任の上限は本アプリに対してあなたが実際に支払った金額を超えません。
+          </p>
+
+          <h2>8. 規約の変更</h2>
+          <p>
+            私たちはアプリの更新に伴い本規約を改訂することがあります。改訂後の規約は本ページで公開し、発効日を更新します。継続して使用した場合、改訂後の規約に同意したものとみなされます。
+          </p>
+
+          <h2>9. お問い合わせ</h2>
+          <p>
+            本規約についてご質問がある場合は、こちらまでご連絡ください：<a
+              href="mailto:northmostgeek@gmail.com"
+              style="color: var(--accent)"
+              >northmostgeek@gmail.com</a
+            >
+          </p>
+        </div>
+      </div>
+
+      <footer>
+        <p>
+          © 2026 northmostgeek ·
+          <a href="mailto:northmostgeek@gmail.com">northmostgeek@gmail.com</a>
+        </p>
+      </footer>
     </div>
 
-    <div class="lang en">
-      <h1>Terms of Use</h1>
-      <p class="meta">Effective date: October 20, 2026</p>
-
-      <p>Welcome to Welldone ("the App"). Please read these terms before use. By downloading or using the App, you agree to them. These terms are based on Apple's Standard Licensed Application End User License Agreement (Standard EULA).</p>
-
-      <h2>1. License</h2>
-      <p>The App is licensed, not sold, to you under a limited, non-exclusive, non-transferable license under Apple's Media Services Terms. You may download and use the App on Apple-branded products that you own or control, as permitted by the Usage Rules set forth in those terms, including use across devices associated with your Apple ID.</p>
-
-      <h2>2. Restrictions</h2>
-      <ul>
-        <li>You may not copy the App or any part of it except as permitted by the license;</li>
-        <li>You may not reverse engineer, decompile, or disassemble the App, except to the extent expressly permitted by law;</li>
-        <li>You may not rent, lease, lend, redistribute, or sublicense the App for commercial purposes;</li>
-        <li>You must comply with all applicable laws when using the App.</li>
-      </ul>
-
-      <h2>3. Your content</h2>
-      <p>Content you record in the App — journal entries, tasks, mood ratings, and tags — belongs to you and is stored locally on your device. You are responsible for the lawfulness of your content and for keeping backups (use the in-app CSV export). We cannot access, recover, or compensate you for content lost due to device failure, accidental deletion, or missing backups.</p>
-
-      <h2>4. Auto-renewing subscriptions</h2>
-      <ul>
-        <li>Premium is offered as a yearly subscription, a monthly subscription, and a one-time lifetime purchase;</li>
-        <li>Subscriptions are billed through your Apple ID at confirmation of purchase and renew automatically each period (except the lifetime purchase);</li>
-        <li>To cancel or manage a subscription, go to your App Store account settings → Subscriptions at least 24 hours before the current period ends;</li>
-        <li>After cancellation, Premium remains available until the end of the current period, then reverts to the free version;</li>
-        <li>Refunds follow Apple's refund policies and applicable law.</li>
-      </ul>
-
-      <h2>5. Maintenance and support</h2>
-      <p>northmostgeek provides maintenance and support for the App (contact: northmostgeek@gmail.com). Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.</p>
-
-      <h2>6. Disclaimer of warranties</h2>
-      <p>To the maximum extent permitted by law, the App is provided "as is" without warranties of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement. We do not warrant the App to be error-free or uninterrupted.</p>
-
-      <h2>7. Limitation of liability</h2>
-      <p>To the maximum extent permitted by law, northmostgeek shall not be liable for any damages (including loss of data or profits) arising from the use of or inability to use the App. Where liability cannot be excluded, it is limited to the amount you actually paid for the App.</p>
-
-      <h2>8. Changes to these terms</h2>
-      <p>We may revise these terms as the App evolves. Updated terms will be posted on this page with a new effective date. Continued use constitutes acceptance of the revised terms.</p>
-
-      <h2>9. Contact us</h2>
-      <p>If you have questions about these terms, contact us at: <a href="mailto:northmostgeek@gmail.com" style="color:var(--accent)">northmostgeek@gmail.com</a></p>
-    </div>
-  </div>
-
-  <footer>
-    <p>© 2026 northmostgeek · <a href="mailto:northmostgeek@gmail.com">northmostgeek@gmail.com</a></p>
-  </footer>
-</div>
-
-<script>
-  document.documentElement.classList.add('js');
-  function setLang(l) {
-    document.documentElement.classList.remove('lang-zh', 'lang-en');
-    document.documentElement.classList.add('lang-' + l);
-    document.getElementById('langToggle').textContent = (l === 'zh') ? 'English' : '中文';
-  }
-  var initial = (navigator.language || 'en').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
-  setLang(initial);
-  document.getElementById('langToggle').addEventListener('click', function () {
-    var nowEn = document.documentElement.classList.contains('lang-zh');
-    setLang(nowEn ? 'en' : 'zh');
-  });
-</script>
-</body>
+    <script>
+      document.documentElement.classList.add("js");
+      var LANGS = ["zh", "en", "ja"];
+      var NEXT_LABEL = { zh: "English", en: "日本語", ja: "中文" };
+      function setLang(l) {
+        document.documentElement.classList.remove(
+          "lang-zh",
+          "lang-en",
+          "lang-ja",
+        );
+        document.documentElement.classList.add("lang-" + l);
+        document.getElementById("langToggle").textContent = NEXT_LABEL[l];
+      }
+      function detectLang() {
+        var q = new URLSearchParams(location.search).get("lang");
+        if (q && LANGS.indexOf(q) !== -1) return q;
+        var n = (navigator.language || "en").toLowerCase();
+        if (n.indexOf("zh") === 0) return "zh";
+        if (n.indexOf("ja") === 0) return "ja";
+        return "en";
+      }
+      setLang(detectLang());
+      document
+        .getElementById("langToggle")
+        .addEventListener("click", function () {
+          var cur =
+            LANGS.filter(function (l) {
+              return document.documentElement.classList.contains("lang-" + l);
+            })[0] || "zh";
+          setLang(LANGS[(LANGS.indexOf(cur) + 1) % LANGS.length]);
+        });
+    </script>
+  </body>
 </html>
