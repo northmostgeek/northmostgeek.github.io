@@ -1,129 +1,35 @@
 <!doctype html>
-<html lang="zh">
+<html lang="zh" class="app-welldone">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Privacy Policy · 隐私政策 · プライバシーポリシー — Welldone</title>
+    <meta name="description" content="Welldone（每日成功日记）的隐私政策：日记数据仅保存在你的设备上，我们不收集任何个人信息。支持中文 / English / 日本語。" />
+    <link rel="canonical" href="https://northmostgeek.github.io/apps/welldone/privacy/" />
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml" />
     <meta name="robots" content="index, follow" />
-    <style>
-      :root {
-        --accent: #01b06f;
-        --accent-soft: rgba(1, 176, 111, 0.1);
-        --text: #1a1d1f;
-        --text-secondary: #6b7280;
-        --border: rgba(0, 0, 0, 0.1);
-      }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-      body {
-        font-family:
-          -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans",
-          "Hiragino Kaku Gothic ProN", "Helvetica Neue", "Segoe UI", Arial,
-          sans-serif;
-        color: var(--text);
-        background: #fafafa;
-        line-height: 1.8;
-        -webkit-font-smoothing: antialiased;
-      }
-      .container {
-        max-width: 720px;
-        margin: 0 auto;
-        padding: 40px 24px 64px;
-      }
-      .topbar {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-bottom: 32px;
-      }
-      .back {
-        color: var(--accent);
-        text-decoration: none;
-        font-size: 14px;
-      }
-      #langToggle {
-        background: var(--accent-soft);
-        color: var(--accent);
-        border: none;
-        font-size: 13px;
-        font-weight: 600;
-        padding: 8px 16px;
-        border-radius: 999px;
-        cursor: pointer;
-      }
-      h1 {
-        font-size: 26px;
-        font-weight: 700;
-        margin-bottom: 4px;
-      }
-      .meta {
-        color: var(--text-secondary);
-        font-size: 13px;
-        margin-bottom: 32px;
-      }
-      h2 {
-        font-size: 18px;
-        font-weight: 700;
-        margin: 32px 0 12px;
-      }
-      p,
-      li {
-        font-size: 15px;
-        color: #374151;
-      }
-      ul {
-        padding-left: 22px;
-        margin: 8px 0;
-      }
-      li {
-        margin: 6px 0;
-      }
-      strong {
-        color: var(--text);
-      }
-      .card {
-        background: #fff;
-        border: 1px solid var(--border);
-        border-radius: 16px;
-        padding: 32px 32px 24px;
-      }
-      footer {
-        text-align: center;
-        color: var(--text-secondary);
-        font-size: 13px;
-        margin-top: 40px;
-      }
-      footer a {
-        color: var(--accent);
-        text-decoration: none;
-      }
-      /* 语言切换：默认双语可见，JS 启用后仅显示一种 */
-      html.js .lang {
-        display: none;
-      }
-      html.js.lang-zh .lang.zh {
-        display: block;
-      }
-      html.js.lang-en .lang.en {
-        display: block;
-      }
-      html.js.lang-ja .lang.ja {
-        display: block;
-      }
-    </style>
+    <link rel="alternate" hreflang="zh" href="https://northmostgeek.github.io/apps/welldone/privacy/?lang=zh" />
+    <link rel="alternate" hreflang="en" href="https://northmostgeek.github.io/apps/welldone/privacy/?lang=en" />
+    <link rel="alternate" hreflang="ja" href="https://northmostgeek.github.io/apps/welldone/privacy/?lang=ja" />
+    <link rel="alternate" hreflang="x-default" href="https://northmostgeek.github.io/apps/welldone/privacy/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="northmostgeek" />
+    <meta property="og:title" content="Privacy Policy · 隐私政策 — Welldone" />
+    <meta property="og:description" content="Welldone（每日成功日记）的隐私政策：日记数据仅保存在你的设备上，我们不收集任何个人信息。支持中文 / English / 日本語。" />
+    <meta property="og:url" content="https://northmostgeek.github.io/apps/welldone/privacy/" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <link rel="stylesheet" href="/assets/css/legal.css" />
   </head>
+
   <body>
     <div class="container">
       <div class="topbar">
         <a class="back" href="../">← Welldone</a>
-        <button id="langToggle" type="button">English</button>
+        <button class="lang-toggle" id="langToggle" type="button">English</button>
       </div>
 
-      <div class="card">
-        <div class="lang zh">
+      <div class="doc">
+        <div class="lang lang-zh" lang="zh">
           <h1>隐私政策</h1>
           <p class="meta">生效日期：2026 年 10 月 20 日</p>
 
@@ -217,7 +123,7 @@
           </p>
         </div>
 
-        <div class="lang en">
+        <div class="lang lang-en" lang="en">
           <h1>Privacy Policy</h1>
           <p class="meta">Effective date: October 20, 2026</p>
 
@@ -341,7 +247,7 @@
           </p>
         </div>
 
-        <div class="lang ja">
+        <div class="lang lang-ja" lang="ja">
           <h1>プライバシーポリシー</h1>
           <p class="meta">発効日：2026年10月20日</p>
 
@@ -441,37 +347,6 @@
       </footer>
     </div>
 
-    <script>
-      document.documentElement.classList.add("js");
-      var LANGS = ["zh", "en", "ja"];
-      var NEXT_LABEL = { zh: "English", en: "日本語", ja: "中文" };
-      function setLang(l) {
-        document.documentElement.classList.remove(
-          "lang-zh",
-          "lang-en",
-          "lang-ja",
-        );
-        document.documentElement.classList.add("lang-" + l);
-        document.getElementById("langToggle").textContent = NEXT_LABEL[l];
-      }
-      function detectLang() {
-        var q = new URLSearchParams(location.search).get("lang");
-        if (q && LANGS.indexOf(q) !== -1) return q;
-        var n = (navigator.language || "en").toLowerCase();
-        if (n.indexOf("zh") === 0) return "zh";
-        if (n.indexOf("ja") === 0) return "ja";
-        return "en";
-      }
-      setLang(detectLang());
-      document
-        .getElementById("langToggle")
-        .addEventListener("click", function () {
-          var cur =
-            LANGS.filter(function (l) {
-              return document.documentElement.classList.contains("lang-" + l);
-            })[0] || "zh";
-          setLang(LANGS[(LANGS.indexOf(cur) + 1) % LANGS.length]);
-        });
-    </script>
+    <script src="/assets/js/lang-switch.js" data-langs="zh,en,ja" defer></script>
   </body>
 </html>

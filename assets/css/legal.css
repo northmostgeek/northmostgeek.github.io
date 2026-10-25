@@ -1,0 +1,79 @@
+/* 法务文档页（privacy / terms 等），必须在 base.css 之后加载 */
+
+.container {
+  padding-top: 40px;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.back {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.lang-toggle {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.doc {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px 32px 24px;
+  line-height: 1.8;
+}
+
+.doc h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.meta {
+  color: var(--text-secondary);
+  font-size: 13px;
+  margin-bottom: 32px;
+}
+
+.doc h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 32px 0 12px;
+}
+
+.doc p,
+.doc li {
+  font-size: 15px;
+  color: #374151;
+}
+
+.doc ul {
+  padding-left: 22px;
+  margin: 8px 0;
+}
+
+.doc li {
+  margin: 6px 0;
+}
+
+.doc strong {
+  color: var(--text);
+}
+
+/* 多语言块：无 JS 时全部可见（渐进增强），有 JS 时只显示当前语言 */
+html.js .lang {
+  display: none;
+}
