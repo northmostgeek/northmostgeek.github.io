@@ -73,13 +73,8 @@ h1 {
   width: 72px;
   height: 72px;
   border-radius: 18px;
-  background: linear-gradient(145deg, var(--accent), var(--accent-dark));
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 34px;
-  font-weight: 700;
+  display: block;
+  object-fit: cover;
   margin-bottom: 16px;
 }
 
