@@ -54,6 +54,12 @@
   margin: 32px 0 12px;
 }
 
+.doc h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 20px 0 6px;
+}
+
 .doc p,
 .doc li {
   font-size: 15px;
